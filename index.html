@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html ng="en">
+<hd>
+    <me crset="UTF-8">
+    <me http-equiv="X--Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+     #box1{
+    display: flex;
+    justify-content: space-around;
+    background-color:white ;
+    color: black;
+    padding: 15px;
+}
+
+a{
+     text-decoration: none;
+
+    color: black;
+}
+#box1 a:hover{
+    color: black;
+      text-decoration: underline;
+
+  
+}
+
+#box1 a{
+
+    cursor: pointer;
+}
+#h{
+    text-align: center;
+}
+#sign{
+  
+    width: 350px;
+    margin: auto;
+    height: 50px;
+    font-size: 15px;
+    background-color: white;
+    color: #393939;
+    cursor: pointer;
+   
+
+
+}
+
+#sign:hover{
+    background-color:#989898;
+}
+
+#l1{
+
+margin-top: 70px;
+color: gray;
+height: 0.5px;
+background-color: rgb(177, 174, 174);
+
+}
+#l2{
+
+    margin-top: 70px;
+    color: black;
+    height: 3px;
+    background-color: black;
+
+}
+#l3{
+    margin-top: 50px;
+   border: 2px solid black;
+    background-color: black;
+    color: black;
+
+}
+#heading{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -50px;
+   
+}
+#search{
+    height: 50px;
+    width: 900px;
+    margin-left: -80px;
+    
+}
+#nor{
+    height: 50px;
+    width: 350px;
+    font-size: 35px;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: -50px;
+    font-weight: bold;
+}
+#img1{
+    height: 30px;
+    width: 30px;
+}
+#simg{
+    display: flex;
+  gap: 30px;
+  font-size: 25px;
+    
+}
+#container{
+            height: 600px;
+            width: 95%;
+           display: flex;
+         
+           
+           gap: 10px;
+           margin: auto;
+           margin-top: 40px;
+           /* grid-template-columns: repeat(1,1fr);
+           grid-template-rows: repeat(1,1fr); */
+         
+
+       }
+
+       #container>div{
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        /* border-top-left-radius: 20px;
+           border-top-right-radius: 20px;
+           border-radius: 20px; */
+           width: 30%;
+
+          
+        
+       }
+
+       #img1{
+
+        height: 60%;
+        width: 100%;
+       }
+       #name{
+           color: red;
+       }
+       #price{
+           color: red;
+       }
+       #strike{
+           padding-left: 20px;
+           text-decoration: line-through;
+           /* margin-top: 25px;
+           margin-left: 30px; */
+           color: gray;
+       }
+
+       #info{
+           display: flex;
+           /* border: 1px solid black; */
+           margin-top: -50px;
+
+       }
+       #info > div{
+        /* border: 1px solid black; */
+        margin: auto;
+        height: 800px;
+        width: 30%;
+        margin-top: 100px;
+        padding: 10px;
+       }
+       .cimg{
+           width: 100%;
+           height: 70%;
+       }
+       #a1{
+        text-decoration: underline;
+       }
+       h1{
+           text-align: center;
+           font-weight: bold;
+       }
+       p{
+        text-align: center;
+       }
+       #catp{
+           text-align: center;
+       }
+
+       #cat{
+           margin-top: 100px;
+       }
+
+       #shop{
+           display: flex;
+           
+       }
+       #shop>div{
+           height: 400px;
+           width:24% ;
+           /* border: 1px solid black; */
+           margin: auto;
+       }
+
+       #shop1{
+           display: flex;
+           
+       }
+       #shop1>div{
+           height: 300px;
+           width:24% ;
+           /* border: 1px solid black; */
+           margin: auto;
+       }
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+#shopimg{
+    width: 80%;
+    height: 80%;
+}
+
+#line{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+
+#ti{
+    color: black;
+margin-top: 100px;
+}
+#brand{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: -150px;
+
+}
+h4{
+    margin-left: 20px;
+}
+#based{
+    text-align: left;
+    font-size: 20px;
+}
+
+#st{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#st>div{
+    color: white;
+    
+    
+}
+.st{
+    color: white;
+    text-decoration: underline;
+}
+.st1{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="st">
+        <div>
+            <p class="st1">Shipping outside of the U.S. or Canada</p>
+        </div>
+        <div>
+            <a class="st" href="">Learn About International Shipping</a>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+
+    <div id="heading">
+        <div><button id="nor">NORDSTROM</button></div>
+        <div>
+            <input type="search" id="search"  placeholder="Search for products or brands">
+        </div>
+        <div id="simg">
+            <div>SignIn </div>
+            <div><a href=""><i class="bi bi-bag"></i></a></div>
+        </div>
+    </div>
+
+    <hr id="l1">
+    <div id="box1">
+        <div><a href="Sale.html">Sale</a></div>
+        <div><a href="Women.html">Women</a></div>
+        <div><a href="Men.html">Men</a></div>
+        <div><a href="Kids.html">Kids</a></div>
+        <div><a href="YoungAdult.html">YoungAdult</a></div>
+        <div><a href="Activewear.html">Activewear</a></div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="Beauty.html">Beauty</a></div>
+        <div><a href="Designer.html">Designer</a></div>
+        <div><a href="Gifts.html">Gifts</a></div>
+        <div><a href="Brands.html">Brands</a></div>
+    </div>
+
+    <h1 id="h">Shop what you love-faster and easier.</h1>
+<center>
+
+    <button id="sign">Sign In or Create an Account</button>
+
+
+</center>
+
+<div id="line"></div>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <a href=""><img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/28/4ac3be4b-f02c-4106-8dc9-be1898a81def1648463267842-Desktop-Banner-----1920x504.jpg" class="d-block w-100" alt="...">
+          </a>
+      </div>
+      <div class="carousel-item">
+
+        <a href="">
+
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/52df3f93-8d0f-412d-b416-fc665706199d1647456798690-Casual-Shoes_Dk.jpg" class="d-block w-100" alt="...">
+
+
+        </a>
+      </div>
+      <div class="carousel-item">
+
+        <a href="">
+
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/5b36764f-1116-4342-bf27-5186b065fc3e1647456798674-Smartwatches_Dk.jpg" class="d-block w-100" alt="...">
+
+
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<h1>Great deals on what you love</h1>
+<p>Items similar to what you've browsed are on sale</p>
+
+<div id="container"></div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <a href="">
+
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/f7e0aa4d-f735-4df8-9b5c-b50d989c11f51647537798505-SS22-DesktopBanners-Women-1.jpg" class="d-block w-100" alt="...">
+
+
+        </a>
+      </div>
+      <div class="carousel-item">
+
+        <a href="">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/19/36183080-d6a3-491c-9c67-73e2774ce3411647687181203-New-Season-Styles_Desk.jpg" class="d-block w-100" alt="...">
+
+
+        </a>
+      </div>
+      <div class="carousel-item">
+
+        <a href="">
+
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/19/e118f56f-2a98-447e-8fee-6337ac81200a1647687181218-Kurtas---Sets_Desk.jpg" class="d-block w-100" alt="...">
+
+
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="line"></div>
+
+<h1>
+    NEW & NOTEWORTHY</h1>
+
+
+
+
+
+<div id="info">
+    <div>
+        <img class="cimg" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13287918/2021/1/6/0cb5dcbc-2877-4f0b-9f0e-a32e8bb31a0f1609909256912-Popnetic-Women-Jackets-4931609909255502-1.jpg" alt="">
+    <h2>Effortlessly Cool</h2>
+    <p>Stock up on festival-ready styles and more from We the Free by Free People.</p>
+    <a href="" id="a1">Free People</a>
+</div>
+    <div>
+        <img class="cimg" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16398102/2022/1/12/3ca182a5-7c33-42b6-9257-8af15e233ac51641978963035-Park-Avenue-Men-Blue-Textured-Slim-Fit-Formal-Shirt-20816419-1.jpg" alt="">
+        <h2>Modern Refresh: Weekend Edition</h2>
+        <p>Ready for a menswear upgrade? Start with casual favorites from FRAME and more.</p>
+        <a href="" id="a1">Advanced Modern</a>
+
+    </div>
+    <div>
+        
+
+        <img class="cimg" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/5393184/2018/11/9/5d828cee-d79e-4ef0-bedb-7dd47224f6ac1541746620849-Roadster-Women-Jackets-3551541746620680-1.jpg" alt="">
+   
+        <h2>Style Stories with Kate</h2>
+        <p>Join Nordstrom Fashion Editor Kate Bellman every other Friday for tips on curating the season's best styles from the brands you love. Plus, you can shop her picks during the events! </p>
+        <a href="" id="a1">RSVP Now</a>
+   
+    </div>
+</div>
+    
+
+
+<h1 id="cat">SHOP YOUR WAY</h1>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+          <a href="">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/22/86bf785e-00f2-45b2-a1bc-41ffb5608f861647968971518-Infant-Wear_Desk_Banner.jpg" class="d-block w-100" alt="...">
+
+          </a>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+          <a href="">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/22/f2f86110-8e30-455e-80cb-0f1e984f83f21647968971546-Teens-Wear_Desk_Banner.jpg" class="d-block w-100" alt="...">
+
+          </a>
+      </div>
+      <div class="carousel-item">
+          <a href="">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/22/4059b4cd-9077-4d1e-94d5-328d452280911647968971563-Top-Brands-2_Desk_Banner.jpg" class="d-block w-100" alt="...">
+
+          </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div id="line"></div>
+
+  <h2>We think you’ll love these</h2>
+  <p id="based">Based on items you've shopped</p>
+
+  <div id="shop">
+    <div>
+        <img id="shopimg" src="https://n.nordstrommedia.com/id/sr3/1d3517be-f672-4e0e-98d9-5162ff5e49a2.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196" alt="">
+        <p id="brand">ROARK</p>
+        <h4>INR 6,949.92</h4>
+    </div>
+    <div>
+       <img id="shopimg" src="https://n.nordstrommedia.com/id/sr3/f2028926-6d7f-41a3-a89e-4d53747332d0.jpeg?q=45&dpr=2&h=365.31&w=230" alt="">
+            <p id="brand">DRESS THE POPULATION</p>
+           <h4>INR 12,101.04</h4>
+    </div>
+    <div>
+        <img id="shopimg" src="https://n.nordstrommedia.com/id/sr3/87c875b2-9b85-49db-a2ce-bcf280e677f7.jpeg?q=45&dpr=2&h=365.31&w=230" alt="">
+   
+        <p id="brand">DRESS THE POPULATION</p>
+       <h4>INR 14,553.96</h4>
+    </div>
+    <div>
+        <img id="shopimg" src="https://n.nordstrommedia.com/id/sr3/71031302-0615-443d-aa35-27da30b10c97.jpeg?q=45&dpr=2&h=365.31&w=230" alt="">
+    
+        <p id="brand">DRESS THE POPULATION</p>
+       <h4>INR 10,465.77</h4>
+    
+    </div>
+   
+</div>
+
+
+
+
+<h1 id="cat">CURRENTLY LOVING</h1>
+<p id="catp">Explore favorite looks from Instagram. Tag @Nordstrom to show us your finds.
+
+</p>
+<div id="shop1">
+    <div>
+        <img src="https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQyNzI3Mjg5Ljc5MzY1Njg4NjgwOS5qcGVn.jpg?w=640&h=640&fit=cover" alt="">
+    </div>
+    <div>
+       <img src="https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQyODA2Mjc5LjQ0OTk4MTI3NjQ4Mi5qcGVn.jpg?w=640&h=640&fit=cover" alt="">
+
+    </div>
+    <div>
+        <img src="https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQyNTUxMzE1LjU2Mjc1MDY2NjQwNy5qcGVn.jpg?w=640&h=640&fit=cover" alt="">
+    </div>
+    <div>
+        <img src="https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQyOTQ0NzQyLjEyNzc1MjU0MDkzNi5qcGVn.jpg?w=640&h=640&fit=cover" alt="">
+    </div>
+   
+</div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+
+
+    </body>
+</html>
+
+<script>
+var data=[
+{
+    
+    imgUrl:"https://n.nordstrommedia.com/id/sr3/385a24cc-d4e6-4eb6-9e84-89e782b0497e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        name:" BONOBOS",
+        p:"",
+        price:"NTR 4,087.74",
+        strikedOffPrice:" 6,377.04(35% off)"
+
+
+},
+{
+    
+    imgUrl:"https://n.nordstrommedia.com/id/sr3/53a0ff8d-c007-43c7-8470-60d79c39b37b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        name:" BONOBOS",
+        p:"NTR",
+        price:" NTR 4,485.74",
+        strikedOffPrice:"6,569.04(35% off)"
+
+
+},
+{
+    
+    imgUrl:"https://n.nordstrommedia.com/id/sr3/158ab9a1-b40f-4e95-88ac-01e8cd33e44d.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        name:" ZELLA",
+        p:"NTR",
+        price:" NTR 2,575.74",
+        strikedOffPrice:"3,434.04(25% off)"
+
+
+},
+{
+    
+    imgUrl:"https://n.nordstrommedia.com/id/sr3/40351204-3598-4f3b-b9ba-098366953c1f.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        name:" BONOBOS",
+        p:"NTR",
+        price:" NTR 5,666.74",
+        strikedOffPrice:"8,094.04(30% off)"
+
+
+},
+{
+    
+    imgUrl:"https://n.nordstrommedia.com/id/sr3/5a3865fd-d5ae-4a38-8c74-bc89cb06c0ea.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        name:" BONOBOS",
+        p:"NTR",
+        price:" NTR 5,396.74",
+        strikedOffPrice:" 7,195.04(25% off)"
+
+
+},
+
+
+];
+
+var bagdata=JSON.parse(localStorage.getItem("bag"))||[];
+data.map(function(ele){
+    var box=document.createElement("div");
+
+    
+    var img=document.createElement("img");
+        img.src=ele.imgUrl;
+
+        var name=document.createElement("p");
+        name.innerText=ele.name;
+
+        var p=document.createElement("p");
+        p.innerText=ele.p;
+
+       var box1=document.createElement("div");
+       var box2=document.createElement("div");
+       var box3=document.createElement("div");
+        
+       var price=document.createElement("p");
+       price.innerText=ele.price;
+
+       
+       var strike=document.createElement("p");
+        strike.innerText=ele.strikedOffPrice;
+
+        
+        box2.append(strike)
+        box1.append(price,box2);
+        box3.append(box1)
+        
+
+        box.append(img,name,box3);
+        document.querySelector("#container").append(box);
+
+
+
+        box.setAttribute("id","outerbox");
+        
+       
+         name.setAttribute("id","name");
+         price.setAttribute("id","price");
+         strike.setAttribute("id","strike");
+         box1.setAttribute("id","box1")
+         p.setAttribute("id",("p"));
+
+        img.setAttribute("id","img1");
+
+        
+
+
+
+
+});
+
+function addToCart(elem) {
+    console.log(elem);
+    cartData.push(elem);
+    localStorage.setItem("cart", JSON.stringify(cartData));
+    
+  }
+
+
+
+</script>
+
