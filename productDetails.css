@@ -1,0 +1,382 @@
+#top_container{
+    display:flex;
+    /* border:2px solid; */
+    /* height:800px; */
+    /* background-color: rgb(245, 199, 199);; */
+    
+}
+.reviews_section h3, .reviews_section h4, .reviews_section h5 {
+    color:#393939;
+}
+
+.have_questions h3, .have_questions h4, .have_questions h5 {
+    color:#393939;
+}
+#all_details h3, #all_details h4, #all_details h5 {
+    color:#393939;
+}
+
+#left_box{
+    /* margin:auto; */
+    /* border: 1px solid red; */
+    width:55%;
+    padding:20px;
+    /* height:600px; */
+}
+#center_box{
+    /* margin:auto; */
+    /* border: 1px solid green; */
+    width:35%;
+    padding:20px;
+    /* height:600px; */
+}
+#right_box{
+    /* margin:auto; */
+    /* border: 1px solid blue; */
+    width:10%;
+    padding:20px;
+    /* height:600px; */
+}
+
+#left_box>div{
+    /* width: 70%; */
+    /* height:30%; */
+    /* padding:20px; */
+    margin:auto;
+    margin-top: 10px;
+    /* border: 2px solid white; */
+    /* background-color: blueviolet; */
+}
+#left_box>div:nth-child(1){
+    padding:10px;
+}
+
+#photos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
+    gap:25px;
+}
+.my_page img{
+    width:100%;
+    /* height:70px; */
+    margin:auto;
+    transition: 0.5s all ease-in-out;
+    
+}
+#photos>div{
+    overflow: hidden;
+}
+.my_page img:hover {
+    transform: scale(1.3);
+    
+}
+/* .imagesDiv{
+    width:100%;
+    height:70px;
+    margin:auto;
+    transition: 0.5s all ease-in-out;
+} */
+#left_box>div:nth-child(1) a{
+    text-decoration: none;
+}
+.my_page a{
+    color: #393939;
+}
+.my_page p, .my_page li{
+    color:#393939; 
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+    line-height: 20px;
+}
+
+
+#all_details{
+    display: flex;
+}
+#all_details>div{
+    width:50%;
+    margin:10px;
+}
+.have_questions{
+    width:97%;
+    margin: auto;
+    /* padding-left: -50px; */
+    padding-bottom: 20px;
+}
+
+.opaque_button{
+    background-color: white;
+    border: 1px solid black;
+    padding:10px;
+    width:200px;
+    font-size: 12px;
+}
+
+.shop_gifts_btn{
+    background-color: white;
+    border: 1px solid black;
+    padding:10px;
+    width:80%;
+    margin: auto;
+    font-size: 12px;
+}
+
+.solid_button{
+    background-color: black;
+    color: white;
+    width:100%;
+    padding:15px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border:none;
+    }
+
+.solid_button:hover{
+    background-color: grey;
+    /* border:none; */
+    border-color: grey;
+}
+.addToBag{
+    
+    justify-content: center;
+}
+
+.opaque_button:hover{
+    background-color: rgb(228, 222, 222);
+    border-color: rgb(228, 222, 222);
+    /* border:none; */
+}
+.shop_gifts_btn:hover{
+    background-color: rgb(228, 222, 222);
+    border-color: rgb(228, 222, 222);
+    /* border:none; */
+}
+
+
+.my_page select{
+    width:100%;
+    padding:15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.smallbox{
+   margin-bottom: -25px;
+   margin-top: 20px;
+    
+}
+.stars_div>div{
+    margin-right:100px;
+}
+
+.customer_review{
+    padding-left: 10px;
+}
+.customer_review>div{
+    width:30%
+}
+
+.flexx{
+    display: flex;
+    margin-top: none;
+}
+
+.border-bottom{
+    /* border: 1px solid black; */
+    border-bottom: 0.3px solid #e3e3e3;
+}
+.border-top{
+    /* border: 1px solid black; */
+    border-top: 0.3px solid #e3e3e3;
+}
+
+.date{
+    margin-top: -14px;
+    margin-left: 15px;
+}
+.padding{
+    padding: 20px;
+}
+#recommended_item{
+    display: flex;
+    width:95%;
+    margin:auto;
+    /* border: 1px solid; */
+}
+/* #recommended_item img{
+    height:80%;
+    width:100%;
+    margin:auto;
+    background-color: red;
+} */
+
+.imagesDiv img{
+    height:100%;
+    width:100%;
+    margin:auto;
+    /* background-color: red; */
+}
+.imagesDiv{
+    height:70%;
+    width:100%;
+    margin:auto;
+    /* background-color: red; */
+    overflow: hidden;
+}
+#recommended_section{
+    width:95%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.strikedPrice{
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    
+    /* border: 1px solid; */
+    
+}
+.product_price{
+    color:red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+    /* border: 1px solid; */
+}
+.price_section{
+    margin-bottom: -25px;
+}
+.price_section+p{
+    margin-bottom: -7px;
+}
+.card{
+    line-height: 1px;
+    margin-right: 2%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:5px;
+}
+.r_price{
+    margin-bottom: -3px;
+}
+
+
+
+
+
+
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+   
+  }
+  .side>div{
+    margin-right: 5px;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  .row{
+      margin-top: -50px;
+      margin-bottom: 40px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: black}
+  .bar-4 {width: 30%; height: 18px; background-color: black;}
+  .bar-3 {width: 10%; height: 18px; background-color: black;}
+  .bar-2 {width: 4%; height: 18px; background-color: black;}
+  .bar-1 {width: 15%; height: 18px; background-color: black;}
+
+
+  @media all and (min-width:950px) and (max-width:1160px){
+    .r_price{
+        color:red;
+        font-size: 10px;
+        font-weight: bold;
+        /* margin-right: 15px; */
+        /* border: 1px solid; */
+    }
+  }
+  @media all and (min-width:800px) and (max-width:949px){
+    .r_price{
+        color:red;
+        font-size: 7px;
+        font-weight: bold;
+    }
+  }
+  @media all and (max-width:799px){
+    #left_box{
+        width:60%;
+        padding:20px;
+    }
+    #center_box{
+        width:40%;
+        padding:20px;
+    }
+    #right_box{
+        display: none;
+    }
+    .bottom_price{
+        color:red;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+  }
+
+
+
+
+ 
+
+    @media all and (min-width:300px) and (max-width:950px){
+        .customer_review>div{
+            width:50%;
+        }
+
+        .stars_div{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .row{
+            margin:2%;
+        }
+
+        .imagesDiv{
+            height:50%;
+            width:100%;
+            margin:auto;            
+        }
+        
+        
+        
+    }
